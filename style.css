@@ -1,0 +1,159 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: linear-gradient(#2A2A2A 0%, rgb(0, 0, 0) 100%);
+}
+
+header {
+    background-color: #121212;
+    padding: 32px 0px 32px 51px ;
+}
+
+header > img {
+    width: 10%;
+}
+
+.form {
+    max-width: 734px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFF;
+    background: #121212;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-title {
+    padding: 68px 0 38px;
+    font-size: 48px;
+    width: 394px;
+    margin: 0 auto;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 324px;
+    margin: 0 auto;
+    gap: 8px;
+}
+
+.card {
+    font-weight: 700;
+    border-radius: 500px;
+    border: 1px solid #727272;
+    display: flex;
+    align-items: center;
+    padding: 10px 31px;
+    gap: 20px;
+    transition: all 200ms linear;
+}
+
+.card:hover {
+    border: 1px solid #FFF;
+}
+
+.form > hr {
+    margin: 32px 100px;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-image: initial;
+    border-top: 1px solid rgb(41, 41, 41);
+}
+
+.inputs {
+    width: 324px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.inputs > input{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px 14px;
+    width: 100%;
+    background-color: #121212;
+    border: 1px solid #727272;
+    border-radius: 5px;
+    transition: all 200ms linear;
+    color: #FFF;
+}
+
+.inputs > input:hover {
+    border: 1px solid #FFF;
+}
+
+
+.inputs > label {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.radio {
+    max-width: 324px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form > button {
+    padding: 15px 32px;
+    background-color: var(--background-base, #1ed760);
+    display: flex;
+    border-radius: 500px;
+    align-items: center;
+    justify-content: center;
+    max-width: 324px;
+    width: 100%;
+    margin: 1rem auto;
+    outline: none;
+    border: none;   
+    font-weight: bold;
+    transition: all 200ms linear;
+}
+
+.form > button:hover {
+    transform: scale(1.1)
+}
+
+.form a {
+    color: #FFF;
+    font-weight: 800;
+}
+
+.form-footer {
+    padding-bottom: 48px;
+    color: #A7A7A7;
+
+}
+
+footer {
+    width: 100%;
+    background-color: #121212;
+    color: #A7A7A7;
+    padding: 32px;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 11px;
+}
